@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Jeta\\MagangAccelist\\NextJS\\exam\\asp.net\\examNextJsBackend\\examNextJsBackend\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "D:\\Jeta\\MagangAccelist\\NextJS\\exam\\asp.net\\examNextJsBackend\\examNextJsBackend\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Jeta\\MagangAccelist\\NextJS\\exam\\asp.net\\examNextJsBackend\\examNextJsBackend\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Jeta\\MagangAccelist\\NextJS\\exam\\asp.net\\examNextJsBackend\\examNextJsBackend\\wwwroot\\lib\\jquery-validate\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validate\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Jeta\\MagangAccelist\\NextJS\\exam\\asp.net\\examNextJsBackend\\examNextJsBackend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Jeta\\MagangAccelist\\NextJS\\exam\\asp.net\\examNextJsBackend\\examNextJsBackend\\wwwroot\\lib\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.examNextJsBackend.props",
+      "PackagePath": "build\\examNextJsBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.examNextJsBackend.props",
+      "PackagePath": "buildMultiTargeting\\examNextJsBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.examNextJsBackend.props",
+      "PackagePath": "buildTransitive\\examNextJsBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.examNextJsBackend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
