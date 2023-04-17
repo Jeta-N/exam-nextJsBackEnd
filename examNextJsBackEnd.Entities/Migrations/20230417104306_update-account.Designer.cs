@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using examNextJsBackEnd.Entities;
 
@@ -10,9 +11,10 @@ using examNextJsBackEnd.Entities;
 namespace examNextJsBackEnd.Entities.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230417104306_update-account")]
+    partial class updateaccount
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.16");
@@ -98,96 +100,96 @@ namespace examNextJsBackEnd.Entities.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "01GY7D4T7627YEPXVRWFAS1XZ4",
-                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 46, 6, 822, DateTimeKind.Unspecified).AddTicks(7684), new TimeSpan(0, 7, 0, 0, 0)),
+                            Id = "01GY7CZ9TQCV2XVZ5KMHYYJKA9",
+                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 43, 6, 199, DateTimeKind.Unspecified).AddTicks(8283), new TimeSpan(0, 7, 0, 0, 0)),
                             Name = "Food A Restaurant A",
                             Price = 50000m,
                             RestaurantId = "01GY6PXNZBB0JSS61Q2JDBBJJJ"
                         },
                         new
                         {
-                            Id = "01GY7D4T76N8HN2J408GXJGM97",
-                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 46, 6, 822, DateTimeKind.Unspecified).AddTicks(7687), new TimeSpan(0, 7, 0, 0, 0)),
+                            Id = "01GY7CZ9TQJGT2QTMGZEAMS3R8",
+                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 43, 6, 199, DateTimeKind.Unspecified).AddTicks(8287), new TimeSpan(0, 7, 0, 0, 0)),
                             Name = "Food B Restaurant A",
                             Price = 25000m,
                             RestaurantId = "01GY6PXNZBB0JSS61Q2JDBBJJJ"
                         },
                         new
                         {
-                            Id = "01GY7D4T76MCF89G4AJ04DWFZT",
-                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 46, 6, 822, DateTimeKind.Unspecified).AddTicks(7695), new TimeSpan(0, 7, 0, 0, 0)),
+                            Id = "01GY7CZ9TQK149N6AHX9CXRR59",
+                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 43, 6, 199, DateTimeKind.Unspecified).AddTicks(8297), new TimeSpan(0, 7, 0, 0, 0)),
                             Name = "Food A Restaurant B",
                             Price = 28000m,
                             RestaurantId = "01GY6PXNZBCNQCQGZ7KQSG7F84"
                         },
                         new
                         {
-                            Id = "01GY7D4T76RNVRYJ11BS2QK89M",
-                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 46, 6, 822, DateTimeKind.Unspecified).AddTicks(7697), new TimeSpan(0, 7, 0, 0, 0)),
+                            Id = "01GY7CZ9TQ60DB2YM44N882XCR",
+                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 43, 6, 199, DateTimeKind.Unspecified).AddTicks(8304), new TimeSpan(0, 7, 0, 0, 0)),
                             Name = "Food B Restaurant B",
                             Price = 45000m,
                             RestaurantId = "01GY6PXNZBCNQCQGZ7KQSG7F84"
                         },
                         new
                         {
-                            Id = "01GY7D4T763YBD6QCN45SBJT04",
-                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 46, 6, 822, DateTimeKind.Unspecified).AddTicks(7704), new TimeSpan(0, 7, 0, 0, 0)),
+                            Id = "01GY7CZ9TQJXE1RN39KNQ2ZVHB",
+                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 43, 6, 199, DateTimeKind.Unspecified).AddTicks(8312), new TimeSpan(0, 7, 0, 0, 0)),
                             Name = "Food A Restaurant C",
                             Price = 58000m,
                             RestaurantId = "01GY6Q8FKXS2QB405HFMV8MVT2"
                         },
                         new
                         {
-                            Id = "01GY7D4T76H4MQYG54FAD3PCH6",
-                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 46, 6, 822, DateTimeKind.Unspecified).AddTicks(7735), new TimeSpan(0, 7, 0, 0, 0)),
+                            Id = "01GY7CZ9TQP6XG0SK3N8WJ0BMQ",
+                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 43, 6, 199, DateTimeKind.Unspecified).AddTicks(8315), new TimeSpan(0, 7, 0, 0, 0)),
                             Name = "Food B Restaurant C",
                             Price = 35000m,
                             RestaurantId = "01GY6Q8FKXS2QB405HFMV8MVT2"
                         },
                         new
                         {
-                            Id = "01GY7D4T76W4SC1QEJN1625KJE",
-                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 46, 6, 822, DateTimeKind.Unspecified).AddTicks(7690), new TimeSpan(0, 7, 0, 0, 0)),
+                            Id = "01GY7CZ9TQAG6GEPM69PDW88Y8",
+                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 43, 6, 199, DateTimeKind.Unspecified).AddTicks(8292), new TimeSpan(0, 7, 0, 0, 0)),
                             Name = "Drink A Restaurant A",
                             Price = 5000m,
                             RestaurantId = "01GY6PXNZBB0JSS61Q2JDBBJJJ"
                         },
                         new
                         {
-                            Id = "01GY7D4T76VVHNHPNWBQQKJP6C",
-                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 46, 6, 822, DateTimeKind.Unspecified).AddTicks(7692), new TimeSpan(0, 7, 0, 0, 0)),
+                            Id = "01GY7CZ9TQ5C6AEB7SKTXHJ7GF",
+                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 43, 6, 199, DateTimeKind.Unspecified).AddTicks(8295), new TimeSpan(0, 7, 0, 0, 0)),
                             Name = "Drink B Restaurant A",
                             Price = 10000m,
                             RestaurantId = "01GY6PXNZBB0JSS61Q2JDBBJJJ"
                         },
                         new
                         {
-                            Id = "01GY7D4T76H16WSJXH0XRV9Z3K",
-                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 46, 6, 822, DateTimeKind.Unspecified).AddTicks(7699), new TimeSpan(0, 7, 0, 0, 0)),
+                            Id = "01GY7CZ9TQM3Z7EX14B4WZDDEG",
+                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 43, 6, 199, DateTimeKind.Unspecified).AddTicks(8307), new TimeSpan(0, 7, 0, 0, 0)),
                             Name = "Drink A Restaurant B",
                             Price = 15000m,
                             RestaurantId = "01GY6PXNZBCNQCQGZ7KQSG7F84"
                         },
                         new
                         {
-                            Id = "01GY7D4T76VA3YZ5H590JP5WBX",
-                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 46, 6, 822, DateTimeKind.Unspecified).AddTicks(7701), new TimeSpan(0, 7, 0, 0, 0)),
+                            Id = "01GY7CZ9TQT3009995NGZCQAMF",
+                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 43, 6, 199, DateTimeKind.Unspecified).AddTicks(8310), new TimeSpan(0, 7, 0, 0, 0)),
                             Name = "Drink B Restaurant B",
                             Price = 25000m,
                             RestaurantId = "01GY6PXNZBCNQCQGZ7KQSG7F84"
                         },
                         new
                         {
-                            Id = "01GY7D4T76R0YTWPQQ8C34YMX7",
-                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 46, 6, 822, DateTimeKind.Unspecified).AddTicks(7741), new TimeSpan(0, 7, 0, 0, 0)),
+                            Id = "01GY7CZ9TQ6E7FGEJBC5MMT80Z",
+                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 43, 6, 199, DateTimeKind.Unspecified).AddTicks(8317), new TimeSpan(0, 7, 0, 0, 0)),
                             Name = "Drink A Restaurant C",
                             Price = 17000m,
                             RestaurantId = "01GY6Q8FKXS2QB405HFMV8MVT2"
                         },
                         new
                         {
-                            Id = "01GY7D4T76N0G94FX24BFG44VQ",
-                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 46, 6, 822, DateTimeKind.Unspecified).AddTicks(7744), new TimeSpan(0, 7, 0, 0, 0)),
+                            Id = "01GY7CZ9TQVCPKQMDV58JXDTSF",
+                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 43, 6, 199, DateTimeKind.Unspecified).AddTicks(8319), new TimeSpan(0, 7, 0, 0, 0)),
                             Name = "Drink B Restaurant C",
                             Price = 27000m,
                             RestaurantId = "01GY6Q8FKXS2QB405HFMV8MVT2"
@@ -214,19 +216,19 @@ namespace examNextJsBackEnd.Entities.Migrations
                         new
                         {
                             Id = "01GY6PXNZBB0JSS61Q2JDBBJJJ",
-                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 46, 6, 822, DateTimeKind.Unspecified).AddTicks(7549), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 43, 6, 199, DateTimeKind.Unspecified).AddTicks(8139), new TimeSpan(0, 7, 0, 0, 0)),
                             Name = "McDonalds"
                         },
                         new
                         {
                             Id = "01GY6PXNZBCNQCQGZ7KQSG7F84",
-                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 46, 6, 822, DateTimeKind.Unspecified).AddTicks(7573), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 43, 6, 199, DateTimeKind.Unspecified).AddTicks(8162), new TimeSpan(0, 7, 0, 0, 0)),
                             Name = "KFC"
                         },
                         new
                         {
                             Id = "01GY6Q8FKXS2QB405HFMV8MVT2",
-                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 46, 6, 822, DateTimeKind.Unspecified).AddTicks(7575), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedAt = new DateTimeOffset(new DateTime(2023, 4, 17, 17, 43, 6, 199, DateTimeKind.Unspecified).AddTicks(8164), new TimeSpan(0, 7, 0, 0, 0)),
                             Name = "A&W"
                         });
                 });

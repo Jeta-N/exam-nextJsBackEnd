@@ -38,7 +38,9 @@ namespace examNextJsBackend.Controllers
                 {
                     Id = Ulid.NewUlid().ToString(),
                     CartId = Q.CartId,
+                    FoodName = Q.FoodItem.Name,
                     FoodItemId = Q.FoodItemId,
+                    FoodPrice = Q.FoodItem.Price,
                     Quantity = Q.Quantity
                   
                 })
